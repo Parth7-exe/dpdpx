@@ -32,9 +32,14 @@ export const SHELL_HTML = `
           <path d="M17 6.5 C17 6.5 20.5 7.5 23 8.5 V15.5 C23 19.5 20.5 22.8 17 24.2" stroke="url(#login-right-glow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           <circle cx="17" cy="12.5" r="1.5" fill="#ffffff" opacity="0.9" />
           <circle cx="17" cy="12.5" r="3.5" stroke="#06b6d4" stroke-width="0.8" opacity="0.5" />
-          <path d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+          <path class="dpdpx-logo-check" d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
-        <div class="lname">DPDP<b>X</b> <span>BY JODETX</span></div>
+        <div class="lname" style="display:flex; align-items:center; font-weight:800; font-size:23px; color:#fff;">
+          DPDPA<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+          <span style="font-size:11.5px; color:#9fc6e6; font-weight:600; display:flex; align-items:center; gap:1.5px; margin-left:6px; letter-spacing:0.02em;">
+            by J<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-o-navy" d="M 12 2 A 10 10 0 1 0 22 12 L 18 12 A 6 6 0 1 1 12 6 Z" fill="currentColor"/><path class="logo-o-cyan" d="M 12 2 A 10 10 0 0 1 22 12 L 18 12 A 6 6 0 0 0 12 6 Z" fill="#2ba6e0"/></svg>det<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+          </span>
+        </div>
       </div>
       <div class="lsub">Privacy &amp; Consent Management · Admin Portal</div>
       <form id="lform" autocomplete="off">
@@ -49,12 +54,12 @@ export const SHELL_HTML = `
         <div class="lerr" id="lerr"></div>
       </form>
       <div class="lhint">Demo access — use the pre-filled credentials or any valid email + password.</div>
-      <div class="lfoot">DPDP Act 2023 Compliant · Secure demo build · v1.0</div>
+      <div class="lfoot">DPDPA Act 2023 Compliant · Secure demo build · v1.0</div>
     </div>
   </div>
   <div id='layout'>
     <aside class='sidebar'>
-      <div class='sb-logo'>
+      <div class='sb-logo' style='display:flex; align-items:center; gap:10px;'>
         <svg class='lmk' width='34' height='34' viewBox='0 0 34 34' fill='none'>
           <defs>
             <filter id="sb-blur" x="-20%" y="-20%" width="140%" height="140%">
@@ -82,8 +87,12 @@ export const SHELL_HTML = `
           <path class="dpdpx-logo-check" d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
         <span class='lword' style='display:flex; flex-direction:column; justify-content:center;'>
-          <span class='lw-main' style='color:var(--navy); font-weight:700; font-size:14px; line-height:1.2; display:flex; align-items:center;'>DPDP<b style='color:#2ba6e0; font-weight:800; margin-left:1px;'>X</b></span>
-          <span class='lw-sub' style='font-size:8.5px; font-weight:600; color:#8a909c; letter-spacing:0.05em; text-transform:uppercase;'>BY JODETX</span>
+          <span class='lw-main' style='color:var(--navy); font-weight:700; font-size:14px; line-height:1.2; display:flex; align-items:center;'>
+            DPDPA<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+          </span>
+          <span class='lw-sub' style='font-size:8px; font-weight:600; color:#8a909c; letter-spacing:0.02em; display:flex; align-items:center; gap:1px;'>
+            by J<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-o-navy" d="M 12 2 A 10 10 0 1 0 22 12 L 18 12 A 6 6 0 1 1 12 6 Z" fill="currentColor"/><path class="logo-o-cyan" d="M 12 2 A 10 10 0 0 1 22 12 L 18 12 A 6 6 0 0 0 12 6 Z" fill="#2ba6e0"/></svg>det<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+          </span>
         </span>
       </div>
       <div class='sb-admin'><span class='lock'><svg width='13' height='13' viewBox='0 0 24 24' fill='none'
@@ -128,8 +137,12 @@ export const SHELL_HTML = `
             <circle cx="17" cy="12.5" r="3.5" stroke="#06b6d4" stroke-width="0.8" opacity="0.5" />
             <path class="dpdpx-logo-check" d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-          <span>DPDP<b style='color:var(--accent)'>X</b> <span
-              style='color:var(--ink-3);font-weight:600;font-size:11px;letter-spacing:.12em'>BY JODETX</span></span>
+          <span style='display:flex; align-items:center; gap:4px; font-weight:700; font-size:14px; color:var(--navy);'>
+            DPDPA<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+            <span style='color:var(--ink-3);font-weight:600;font-size:10px;display:flex;align-items:center;gap:1.5px;margin-left:4px;'>
+              by J<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-o-navy" d="M 12 2 A 10 10 0 1 0 22 12 L 18 12 A 6 6 0 1 1 12 6 Z" fill="currentColor"/><path class="logo-o-cyan" d="M 12 2 A 10 10 0 0 1 22 12 L 18 12 A 6 6 0 0 0 12 6 Z" fill="#2ba6e0"/></svg>det<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+            </span>
+          </span>
         </div>
         <div class='right'>
           <button class='iconbtn'><svg width='19' height='19' viewBox='0 0 24 24' fill='none' stroke='currentColor'
