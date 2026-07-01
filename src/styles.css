@@ -1194,27 +1194,52 @@
       border-radius: 9px;
       box-shadow: 0 12px 30px rgba(0, 0, 0, .14);
       padding: 6px;
-      z-index: 90;
-      min-width: 220px;
+      z-index: 99999 !important; /* Ensure it stays above everything */
+      min-width: 130px;
       max-height: 260px;
-      overflow: auto
+      overflow: auto;
     }
 
     .dropdown .opt {
-      padding: 8px 11px;
+      padding: 8px 12px;
       border-radius: 7px;
       font-size: 13px;
-      cursor: pointer
+      cursor: pointer;
+      color: var(--navy, #1f3b5c) !important; /* Explicitly set dark navy text color */
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background-color 0.2s, color 0.2s, transform 0.15s ease;
+    }
+
+    .dropdown .opt svg {
+      stroke: currentColor !important;
+      fill: none !important;
+      flex-shrink: 0;
     }
 
     .dropdown .opt:hover {
-      background: #f3f4f6
+      background: var(--blue-soft, #e6f4fc) !important;
+      color: var(--blue-d, #1f8fd4) !important;
+      transform: translateX(3px);
     }
 
     .dropdown .opt.sel {
       background: var(--blue-soft);
       color: var(--blue);
-      font-weight: 600
+      font-weight: 600;
+    }
+
+    /* Handle Delete opt specially so it remains red but has hover effect */
+    .dropdown .opt[data-act="delete"] {
+      color: var(--red, #dc2626) !important;
+    }
+    .dropdown .opt[data-act="delete"] svg {
+      stroke: var(--red, #dc2626) !important;
+    }
+    .dropdown .opt[data-act="delete"]:hover {
+      background: var(--red-soft, #fdeaea) !important;
+      color: var(--red, #dc2626) !important;
     }
 
     .sectionlabel {
