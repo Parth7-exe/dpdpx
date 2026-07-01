@@ -70,11 +70,11 @@ import { logoPop } from '../../core/animations';
       </span>
       @if (showWord) {
         <span class="dpdpx-logo-word" style="display:flex; flex-direction:column; justify-content:center;">
-          <span class="dpdpx-logo-main" style="display:flex; align-items:center; gap:2px; font-weight:700;">
-            DPDPA<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+          <span class="dpdpx-logo-main" style="display:flex; align-items:center; font-weight:700;">
+            DPDPA<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
           </span>
-          <span class="dpdpx-logo-sub" style="display:flex; align-items:center; gap:1.5px; font-size:8px; font-weight:600; color:#8a909c; letter-spacing:0.02em;">
-            by J<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-o-navy" d="M 12 2 A 10 10 0 1 0 22 12 L 18 12 A 6 6 0 1 1 12 6 Z" fill="currentColor"/><path class="logo-o-cyan" d="M 12 2 A 10 10 0 0 1 22 12 L 18 12 A 6 6 0 0 0 12 6 Z" fill="#2ba6e0"/></svg>det<svg viewBox="0 0 24 24" fill="none" style="width:1.05em; height:1.05em; display:inline-block; vertical-align:middle; margin-left:-2px; margin-right:-2px; transform:translateY(-1px);"><path class="logo-x-left" d="M 3 3 L 8.5 3 L 11.5 10 L 9.5 12 L 12.5 15.5 L 9 21 L 3 21 L 7.5 12 Z" fill="#2ba6e0"/><path class="logo-x-right" d="M 21 3 L 15.5 3 L 12.5 8.5 L 14.5 12 L 11.5 14 L 15 21 L 21 21 L 16.5 12 Z" fill="currentColor"/></svg>
+          <span class="dpdpx-logo-sub" style="display:flex; align-items:center; font-size:8px; font-weight:600; color:#8a909c; letter-spacing:0.02em;">
+            by J<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-o-navy" d="M 12 2 A 8 8 0 1 0 20 10" stroke="currentColor" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/><path class="logo-o-cyan" d="M 20 10 A 8 8 0 0 0 12 2" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/></svg>det<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
           </span>
         </span>
       }
