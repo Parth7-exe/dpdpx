@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="34" height="34" fill="none">
+  <defs>
+    <!-- Blur Filter for neon glow -->
+    <filter id="dpdpx-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8" result="blur" />
+    </filter>
+    <!-- Dark background gradient -->
+    <linearGradient id="dpdpx-bg" x1="0" y1="0" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a" />
+      <stop offset="1" stop-color="#1e293b" />
+    </linearGradient>
+    <!-- Left shield neon gradient -->
+    <linearGradient id="dpdpx-left-glow" x1="11" y1="6.5" x2="17" y2="24.2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b82f6" />
+      <stop offset="1" stop-color="#1d4ed8" />
+    </linearGradient>
+    <!-- Right shield neon gradient -->
+    <linearGradient id="dpdpx-right-glow" x1="23" y1="6.5" x2="17" y2="24.2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4" />
+      <stop offset="1" stop-color="#0e7490" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer rounded box with border -->
+  <rect x="1" y="1" width="32" height="32" rx="9" fill="url(#dpdpx-bg)" stroke="rgba(255,255,255,0.06)" stroke-width="1.2" />
+  
+  <!-- Background Glow -->
+  <circle cx="17" cy="15" r="8" fill="#06b6d4" opacity="0.15" filter="url(#dpdpx-blur)" />
+  
+  <!-- Left Shield Side -->
+  <path d="M17 6.5 C17 6.5 13.5 7.5 11 8.5 V15.5 C11 19.5 13.5 22.8 17 24.2" stroke="url(#dpdpx-left-glow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Right Shield Side -->
+  <path d="M17 6.5 C17 6.5 20.5 7.5 23 8.5 V15.5 C23 19.5 20.5 22.8 17 24.2" stroke="url(#dpdpx-right-glow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Central Glowing Node -->
+  <circle cx="17" cy="12.5" r="1.5" fill="#ffffff" opacity="0.9" />
+  
+  <!-- Glowing Node Inner Core -->
+  <circle cx="17" cy="12.5" r="3.5" stroke="#06b6d4" stroke-width="0.8" opacity="0.5" />
+  
+  <!-- Checkmark -->
+  <path d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
