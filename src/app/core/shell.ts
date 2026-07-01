@@ -34,9 +34,7 @@ export const SHELL_HTML = `
           <circle cx="17" cy="12.5" r="3.5" stroke="#06b6d4" stroke-width="0.8" opacity="0.5" />
           <path class="dpdpx-logo-check" d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
-        <div class="lname" style="display:flex; align-items:center; font-weight:800; font-size:23px; color:#fff;">
-          DPDPA<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span style="font-size:11.5px; color:#9fc6e6; font-weight:600; display:flex; align-items:center; margin-left:6px; letter-spacing:0.02em;">by J<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-o-navy" d="M 12 2 A 8 8 0 1 0 20 10" stroke="currentColor" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/><path class="logo-o-cyan" d="M 20 10 A 8 8 0 0 0 12 2" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/></svg>det<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
-        </div>
+        <div class="lname">DPDPA<b>X</b><span>by J<b>o</b>det<b class="bx">x</b></span></div>
       </div>
       <div class="lsub">Privacy &amp; Consent Management · Admin Portal</div>
       <form id="lform" autocomplete="off">
@@ -83,9 +81,9 @@ export const SHELL_HTML = `
           <circle cx="17" cy="12.5" r="3.5" stroke="#06b6d4" stroke-width="0.8" opacity="0.5" />
           <path class="dpdpx-logo-check" d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
-        <span class='lword' style='display:flex; flex-direction:column; justify-content:center;'>
-          <span class='lw-main' style='color:var(--navy); font-weight:700; font-size:14px; line-height:1.2; display:flex; align-items:center;'>DPDPA<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
-          <span class='lw-sub' style='font-size:8px; font-weight:600; color:#8a909c; letter-spacing:0.02em; display:flex; align-items:center;'>by J<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-o-navy" d="M 12 2 A 8 8 0 1 0 20 10" stroke="currentColor" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/><path class="logo-o-cyan" d="M 20 10 A 8 8 0 0 0 12 2" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/></svg>det<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
+        <span class='lword'>
+          <span class='lw-main'>DPDPA<b>X</b></span>
+          <span class='lw-sub'>by J<b>o</b>det<b class="bx">x</b></span>
         </span>
       </div>
       <div class='sb-admin'><span class='lock'><svg width='13' height='13' viewBox='0 0 24 24' fill='none'
@@ -130,8 +128,9 @@ export const SHELL_HTML = `
             <circle cx="17" cy="12.5" r="3.5" stroke="#06b6d4" stroke-width="0.8" opacity="0.5" />
             <path class="dpdpx-logo-check" d="M13.4 16.3l2.5 2.5 4.8-5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-          <span style='display:flex; align-items:center; font-weight:700; font-size:14px; color:var(--navy);'>
-            DPDPA<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span style='color:var(--ink-3);font-weight:600;font-size:10px;display:flex;align-items:center;margin-left:4px;'>by J<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-o-navy" d="M 12 2 A 8 8 0 1 0 20 10" stroke="currentColor" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/><path class="logo-o-cyan" d="M 20 10 A 8 8 0 0 0 12 2" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/></svg>det<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
+          <span class='tb-brand'>
+            <span class='tb-name'>DPDPA<b>X</b></span>
+            <span class='tb-sub'>by J<b>o</b>det<b class="bx">x</b></span>
           </span>
         </div>
         <div class='right'>

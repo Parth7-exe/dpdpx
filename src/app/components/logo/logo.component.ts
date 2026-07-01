@@ -69,13 +69,9 @@ import { logoPop } from '../../core/animations';
         </svg>
       </span>
       @if (showWord) {
-        <span class="dpdpx-logo-word" style="display:flex; flex-direction:column; justify-content:center;">
-          <span class="dpdpx-logo-main" style="display:flex; align-items:center; font-weight:700;">
-            DPDPA<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
-          </span>
-          <span class="dpdpx-logo-sub" style="display:flex; align-items:center; font-size:8px; font-weight:600; color:#8a909c; letter-spacing:0.02em;">
-            by J<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-o-navy" d="M 12 2 A 8 8 0 1 0 20 10" stroke="currentColor" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/><path class="logo-o-cyan" d="M 20 10 A 8 8 0 0 0 12 2" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round" transform="translate(2,2)"/></svg>det<svg class="logo-char" viewBox="0 0 24 24" fill="none"><path class="logo-x-left" d="M 5 5 L 11 11 M 5 19 L 11 13" stroke="#2ba6e0" stroke-width="3" stroke-linecap="round"/><path class="logo-x-right" d="M 19 5 L 13 11 M 19 19 L 13 13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
-          </span>
+        <span class="dpdpx-logo-word">
+          <span class="dpdpx-logo-main">DPDPA<b>X</b></span>
+          <span class="dpdpx-logo-sub">by J<b>o</b>det<b class="bx">x</b></span>
         </span>
       }
     </span>
