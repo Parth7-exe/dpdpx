@@ -1,4 +1,4 @@
-# DPDPX by JODETX — Angular
+# DPDPAX by Jodetx — Angular
 
 DPDP Act 2023 **Privacy & Consent Management** admin portal, converted from a single-file HTML/JS app into an **Angular 17** project — with **animated transitions, skeleton loaders, and a custom animated brand mark** added on top.
 
@@ -51,7 +51,7 @@ src/
       shell.ts                  the static shell DOM (login / sidebar / topbar / view / modal-root)
       animations.ts             reusable Angular animation triggers
     components/
-      logo/                custom animated DPDPX brand mark (gradient + draw-in check + sheen)
+      logo/                custom animated DPDPAX brand mark (gradient + draw-in check + sheen)
       boot-splash/         animated splash shown during engine boot
       skeleton/            reusable shimmer skeleton
 ```

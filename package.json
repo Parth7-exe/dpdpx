@@ -1,7 +1,7 @@
 {
-  "name": "dpdpx-angular",
+  "name": "dpdpax-angular",
   "version": "1.0.0",
-  "description": "DPDPX by JODETX — DPDP Act 2023 Privacy & Consent Management admin portal, ported to Angular.",
+  "description": "DPDPAX by Jodetx — DPDP Act 2023 Privacy & Consent Management admin portal, ported to Angular.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
